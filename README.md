@@ -41,7 +41,28 @@ The notebook provides comprehensive coverage of PySpark fundamentals through han
 19. **Challenge Exercise 2** – SQL joins with aggregation for business analytics
 20. **Real-world Scenario** – NYC taxi data analysis combining all concepts
 
-Each concept is explained with clear documentation, detailed comments, and practical examples. Every section builds progressively on previous knowledge.
+### Advanced PySpark Topics (NEW!)
+21. **Window Functions** – Running totals, rankings, and row comparisons
+    - Examples: Running sums, row numbering, lag/lead functions
+    - Challenge: Calculate moving averages with window functions
+
+22. **Pivot Tables** – Multi-dimensional data summarization
+    - Examples: Average fare by payment type and passenger count
+    - Challenge: Create pivot tables with multiple aggregations
+
+23. **User Defined Functions (UDFs)** – Custom Python functions for complex logic
+    - Examples: Categorizing trips, flagging high-value transactions
+    - Challenge: Create fare efficiency UDFs with custom scoring
+
+24. **Data Quality & Outlier Detection** – Identifying anomalies and data issues
+    - Examples: Z-Score and IQR methods for outlier detection
+    - Challenge: Multi-condition quality scoring system
+
+25. **Partitioning & Performance** – Optimizing storage and query performance
+    - Examples: Single and multi-level partitioning strategies
+    - Challenge: Design optimal partitioning for analytics
+
+Each concept is explained with clear documentation, detailed comments, practical examples, and hands-on challenges. Every section builds progressively on previous knowledge.
 
 ## Getting Started
 
@@ -111,7 +132,14 @@ jupyter notebook
 - Challenge: SQL joins with aggregation
 - Production environment considerations
 
-**Section 5: Summary** (Cells 28-29)
+**Section 5: Advanced Topics** (Cells 28-47) ⭐ NEW
+- **Window Functions**: Running totals, rankings, and comparisons
+- **Pivot Tables**: Multi-dimensional summarization
+- **UDFs**: User-defined functions for custom logic
+- **Outlier Detection**: Data quality and anomaly identification
+- **Partitioning**: Performance optimization through smart storage
+
+**Section 6: Summary** (Cells 48-49)
 - Complete reference of transformations vs actions
 - Performance optimization tips
 - Best practices guide
