@@ -70,6 +70,7 @@ Each concept is explained with clear documentation, detailed comments, practical
 - Python 3.7+
 - Jupyter Notebook or VS Code with Jupyter extension
 - PySpark (install via `pip install pyspark`)
+- Suggested to use Google Colab - Don't have to setup environment [Checkout](https://colab.research.google.com/)
 
 ### Running the Notebook
 
