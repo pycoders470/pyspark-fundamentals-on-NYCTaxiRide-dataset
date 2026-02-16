@@ -3,7 +3,7 @@
 
 This project demonstrates core PySpark concepts and data engineering techniques using the New York City Taxi Ride dataset. The included Jupyter notebook provides a hands-on, well-documented walkthrough of distributed data processing, cleaning, and analysis with PySpark.
 
-## Dataset
+## Dataset [Download](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - **Source:** NYC Taxi Ride data (sample Parquet files and zone lookup CSV)
 - **Files:**
 	- `dataset/yellow_tripdata_2025-01.parquet`, `yellow_tripdata_2025-02.parquet`
@@ -190,5 +190,3 @@ After mastering these fundamentals, continue your learning journey:
 - **BI & Visualization**: Exporting to Tableau, Power BI, etc.
 - **Workflow Orchestration**: Complex multi-step data pipelines
 
-## License
-This project is for educational purposes.
